@@ -19,7 +19,7 @@ elSubmitBtn.addEventListener('click', async () => {
 			if (res.token) {
 				localStorage.setItem('access_token', res.token);
 				localStorage.setItem('userId', res.id);
-				location.href = '/pages/users.html';
+				location.href = '/pages/akk.html';
 			} else {
 				localStorage.removeItem('access_token');
 				location.reload();
